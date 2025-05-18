@@ -11,10 +11,10 @@ import {
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const screenshotImages = [
-  "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  "https://res.cloudinary.com/dpa0sb1tm/image/upload/c_crop,w_527,h_1140,g_auto/v1747553246/Screenshot_2025-05-18_125709_geopdr.png",
+  "https://res.cloudinary.com/dpa0sb1tm/image/upload/c_crop,w_527,h_1100,g_auto/v1747553275/Screenshot_2025-05-18_125744_osfkh8.png",
+  "https://res.cloudinary.com/dpa0sb1tm/image/upload/c_crop,w_527,h_1100,g_auto/v1747553296/Screenshot_2025-05-18_125807_ii88nc.png",
+  "https://res.cloudinary.com/dpa0sb1tm/image/upload/c_crop,w_528,h_1143/v1747553313/Screenshot_2025-05-18_125826_v2xfkl.png"
 ];
 
 const Hero = () => {
@@ -61,8 +61,8 @@ const Hero = () => {
                   <CarouselContent>
                     {screenshotImages.map((image, index) => (
                       <CarouselItem key={index}>
-                        <div className="mx-auto max-w-[280px]">
-                          <AspectRatio ratio={9/16} className="bg-pink-50 rounded-2xl overflow-hidden">
+                        <div className="mx-auto max-w-[300px] max-h-[4000px]">
+                          <AspectRatio ratio={9/16} className="bg-pink-50 rounded-2xl overflow-hidden h-[570px] w-[280px]">
                             <img 
                               src={image} 
                               alt={`App Screenshot ${index + 1}`}
