@@ -9,7 +9,6 @@ const Contact = () => {
     "nainathippani@gmail.com",
     "neesonu98215@gmail.com",
     "subhamkumarshee@gmail.com",
-    "info@safema.com"
   ];
 
   return (
@@ -52,13 +51,13 @@ const Contact = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">Call Us</h3>
                 <p className="text-gray-600">
-                  <a href="tel:+1234567890" className="hover:text-pink-600 hover:underline">
-                    +1 (234) 567-890
+                  <a href="tel:+91 85198 38150" className="hover:text-pink-600 hover:underline">
+                  +91 85198 38150
                   </a>
                 </p>
                 <p className="text-gray-600 mt-1">
-                  <a href="tel:+1234567890" className="hover:text-pink-600 hover:underline">
-                    +1 (234) 567-891
+                  <a href="tel:+91 733 068 1857" className="hover:text-pink-600 hover:underline">
+                  +91 733 068 1857
                   </a>
                 </p>
               </div>
