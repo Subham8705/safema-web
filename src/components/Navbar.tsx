@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 
@@ -20,7 +19,13 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-sm z-50 shadow-sm">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center">
+        {/* Logo and Brand Name */}
+        <div className="flex items-center space-x-2">
+          <img
+            src="https://res.cloudinary.com/dpa0sb1tm/image/upload/c_crop,w_600,h_600/v1747552956/32682d32-f5a0-4530-a1c8-e97b51423757_coyfvr.jpg" // Replace with your logo URL
+            alt="Safema Logo"
+            className="h-14 w-14 object-contain"
+          />
           <span className="text-2xl font-bold text-pink-600">Safema</span>
         </div>
         
@@ -33,6 +38,7 @@ const Navbar = () => {
           <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-pink-600 font-medium">Contact</button>
         </div>
         
+        {/* Desktop CTA Button */}
         <div className="hidden md:block">
           <Button 
             onClick={() => scrollToSection('contact')}
