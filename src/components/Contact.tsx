@@ -9,6 +9,7 @@ const Contact = () => {
     "nainathippani@gmail.com",
     "neesonu98215@gmail.com",
     "subhamkumarshee@gmail.com",
+    "mahathi.mahasiv@gmail.com",
   ];
 
   return (
